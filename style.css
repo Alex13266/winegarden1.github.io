@@ -1,0 +1,627 @@
+@import url("reset.css");
+@import url("typography.css");
+
+.navbar-custom {
+  position: absolute !important;
+  width: 100%;
+  z-index: 1000;
+  background: transparent !important;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 28px !important;
+  transition: 0.2s ease-in;
+}
+
+.navbar-brand:hover {
+  color: #e91531;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-item a {
+  color: white;
+  font-size: 18px;
+  transition: 0.2s ease-in;
+}
+
+.nav-item a:hover {
+  color: #e91531;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-item a:focus {
+  outline: none;
+}
+
+.nav-item {
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+#navbarNav {
+  justify-content: center;
+}
+
+.carousel {
+  max-height: 95%;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+  width: auto;
+}
+
+.carousel-item img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  filter: brightness(55%);
+}
+
+/* Main */
+.main-container {
+  display: grid;
+  align-items: center;
+  min-height: 80vh;
+  max-width: 1150px;
+}
+
+.wine-ad {
+  height: 500px;
+  /* border: 2px dashed red; */
+}
+
+.adBox2Content {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ad-image {
+  width: 100%;
+  height: 100%;
+}
+
+.ad-image img {
+  position: absolute;
+  z-index: 100;
+  top: 780px;
+  width: 547px;
+  height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.adHorizLines {
+  display: flex;
+  justify-content: center;
+}
+
+.line1,
+.line2 {
+  margin: auto !important;
+  width: 125px;
+  height: auto;
+  border-bottom: 1px solid #666;
+}
+
+.adBoxWelc {
+  font-family: "Pinyon Script", cursive;
+  font-size: 45px;
+  line-height: 0.5;
+}
+
+.adBoxName {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #e91531;
+}
+
+.adMainBox p {
+  font-size: 17px;
+  font-style: italic;
+  color: #666;
+}
+
+.adInfo1 {
+  border-right: 0.5mm solid rgb(194, 194, 194) !important;
+}
+
+.adInfo3 {
+  border-left: 0.5mm solid rgb(194, 194, 194) !important;
+}
+
+.adInfo1 p,
+.adInfo2 p,
+.adInfo3 p {
+  margin: 0;
+  padding: 0;
+}
+
+.adInfoTitles1 {
+  font-size: 20px;
+}
+
+.adInfoTitles2 {
+  font-size: 23px;
+}
+
+.adIcons a {
+  text-decoration: none;
+  color: #0f0f0f;
+  font-size: 28px;
+  letter-spacing: 1.3mm;
+}
+
+.adIcons a:hover {
+  color: #e91531;
+  transition: 0.3s ease-in;
+}
+
+/* Special Offer */
+
+.specialOffer {
+  margin-top: 8rem;
+  min-height: 80vh;
+  width: auto;
+  background-color: #ccc;
+  align-content: center;
+  background-image: url("./images/backgroundDeak.jpg");
+}
+
+.specialOfferBox1 {
+  max-width: 65% !important;
+  height: auto;
+}
+
+.specialOfferBox2 {
+  max-width: 20% !important;
+  height: auto;
+  margin: auto !important;
+}
+
+.specialOfferImgs {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.specialOfferImgs img {
+  width: auto;
+  height: 50%;
+  margin: auto;
+}
+
+.price-tag {
+  padding-top: 1.2rem;
+  display: block;
+  width: 326px;
+  height: auto;
+}
+
+.price {
+  display: inline-block;
+  width: 50px;
+  background-color: red;
+}
+
+.price-tag::after {
+  position: absolute;
+  width: 0;
+  content: "";
+  right: 0;
+  left: 0;
+  height: 0;
+  border-right: 20px solid #fff;
+  border-top: 15px solid transparent;
+  border-bottom: 19px solid transparent;
+}
+
+.specialOfferTitle {
+  margin: auto;
+  width: 80%;
+}
+
+.offerFirstTitle,
+.offerSecondTitle {
+  text-align: center;
+}
+
+.offerHorizLines {
+  display: flex;
+  justify-content: center;
+}
+
+.offerLine1,
+.offerLine2 {
+  display: block;
+  width: 220px;
+  height: auto;
+  margin: auto;
+  border-bottom: 1.5px solid rgb(156, 156, 156);
+}
+
+.offerText {
+  text-align: center;
+}
+
+.specialOfferBtn {
+  justify-content: center;
+}
+
+.countdownLines {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.countdownLine1 {
+  width: 200px;
+  height: auto;
+  /* margin: 0 15px 0 0; */
+  border-top: 1.5px solid rgb(156, 156, 156);
+}
+
+.countdownLine2 {
+  width: 200px;
+  height: auto;
+  /* margin: 0 0 0 15px; */
+  border-top: 1.5px solid rgb(156, 156, 156);
+}
+
+#offerCountdown {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 40px;
+  letter-spacing: 1mm;
+  font-family: "Libre Baskerville", serif;
+  margin: 0%;
+}
+
+.specialOfferBtn button {
+  border-radius: 9999px;
+  font-family: "Philosopher", sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  width: 150px;
+  height: 45px;
+}
+
+.offerFirstTitle {
+  font-family: "Pinyon Script";
+  font-size: 38px;
+}
+
+.offerSecondTitle {
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #e91531;
+}
+
+.offerText p {
+  font-size: 18px !important;
+  color: #666;
+  font-family: "Philosopher", sans-serif;
+}
+
+.specialOfferImgs {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Blog */
+.wineBlog {
+  width: auto;
+  max-height: 80%;
+  background-color: #f4f6f9;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.wineBlogHeading {
+  text-align: center;
+}
+
+.wineBlogHeading h2 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 3px !important;
+  text-transform: uppercase;
+  color: #e91531;
+}
+
+.wineBlog-Img img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+.wineBlogHeading h3 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 45px;
+  margin: 0;
+}
+
+.wineBlog-inline {
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.wineBlog-Item1 p,
+.wineBlog-Item2 p,
+.wineBlog-Item3 p,
+.wineBlog-Item4 p {
+  font-size: 14px;
+}
+
+.wineBlog-text1,
+.wineBlog-text3 {
+  margin-right: 5rem;
+}
+
+.wineBlog-text1 a,
+.wineBlog-text3 a {
+  display: block;
+  margin-top: 3rem;
+}
+
+.wineBlog-text2,
+.wineBlog-text4 {
+  margin-left: 5rem;
+}
+
+.wineBlog-text2 a,
+.wineBlog-text4 a {
+  display: block;
+  text-align: end;
+  margin-top: 3rem;
+}
+
+.wineBlog-text2 h3,
+.wineBlog-text4 h3 {
+  text-align: right;
+}
+
+.wineBlog-text1 h3,
+.wineBlog-text3 h3 {
+  position: relative;
+  color: #bb1329;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.wineBlog-text2 h3,
+.wineBlog-text4 h3 {
+  position: relative;
+  color: #bb1329;
+  font-size: 35px;
+  font-weight: 800;
+  padding-right: 1.5rem;
+}
+
+.wineBlog-text1 h3::after {
+  content: " 03";
+  position: absolute;
+  line-height: 0.6;
+  font-size: 69px;
+  color: black;
+  opacity: 0.2;
+  margin-left: -1.8rem;
+}
+
+.wineBlog-text3 h3::after {
+  content: " 20";
+  position: absolute;
+  line-height: 0.6;
+  font-size: 69px;
+  color: black;
+  opacity: 0.2;
+  margin-left: -1.8rem;
+}
+
+.wineBlog-text2 h3::after {
+  content: "29";
+  position: absolute;
+  line-height: 0.6;
+  font-size: 69px;
+  color: black;
+  opacity: 0.2;
+  margin-left: -1.5rem;
+}
+
+.wineBlog-text4 h3::after {
+  content: "25";
+  position: absolute;
+  line-height: 0.6;
+  font-size: 69px;
+  color: black;
+  opacity: 0.2;
+  margin-left: -1.5rem;
+}
+
+.wineBlog-text1 p,
+.wineBlog-text2 p,
+.wineBlog-text3 p,
+.wineBlog-text4 p {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.blogHorizLines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blogLine1 {
+  border-bottom: 1px solid #ccc;
+  width: 150px;
+  margin-right: 2rem;
+}
+
+.blogLine2 {
+  border-bottom: 1px solid #ccc;
+  width: 150px;
+  margin-left: 2rem;
+}
+
+.wineBlog-text1 a,
+.wineBlog-text2 a,
+.wineBlog-text3 a,
+.wineBlog-text4 a {
+  display: block;
+  width: 70px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: 0.3s ease-in;
+}
+
+.wineBlog-text1 a:hover,
+.wineBlog-text2 a:hover,
+.wineBlog-text3 a:hover,
+.wineBlog-text4 a:hover {
+  color: #bb1329;
+  transition: 0.3s ease-in-out;
+}
+
+.wineBlog-text2 a,
+.wineBlog-text4 a {
+  margin-left: auto;
+}
+
+/* Footer */
+.footerBNM {
+  background-color: #494949;
+}
+
+.footerCont {
+  background-color: #111111;
+  padding: 5rem 0;
+  /* min-height: 80vh;
+  width: auto; */
+}
+
+.footerBox1 p {
+  padding: 2px 0;
+  margin: 0;
+  font-size: 18px;
+  color: rgb(156, 156, 156);
+}
+
+.footerBox1 h3 {
+  font-size: 38px;
+  color: #bb1329;
+}
+
+.footerBox2,
+.footerBox3 {
+  color: white;
+}
+
+.footerBox2 h3,
+.footerBox3 h3 {
+  font-size: 20px;
+}
+
+.footerQLinks ul,
+.footerAcc ul {
+  padding: 0;
+}
+
+.footerQLinks ul li a,
+.footerAcc ul li a {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+  transition: 0.2s ease-in;
+}
+
+.footerQLinks ul li a:hover,
+.footerAcc ul li a:hover {
+  color: #bb1329;
+  transition: 0.2s ease-out;
+}
+
+.footerQLinks ul li,
+.footerAcc ul li {
+  list-style: none;
+  padding: 7px 0;
+}
+
+.footerNav {
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.footerNav a {
+  padding: 0 1.2rem;
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+  transition: 0.2s ease-in;
+}
+
+.footerNav a:hover {
+  color: #bb1329;
+  transition: 0.2s ease-out;
+}
+
+.footerLine {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.footerLine::after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  width: 1000px;
+  opacity: 0.3;
+  border-bottom: 1px solid rgb(156, 156, 156);
+}
+
+.footerCpyRgt {
+  flex-wrap: wrap;
+}
+
+.footerCpyRgt p {
+  font-size: 14px;
+  letter-spacing: 0.2mm;
+  color: rgb(156, 156, 156);
+}
+
+.footerMedia a {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+  font-size: 21px;
+  margin: 0 1rem;
+  transition: 0.2s ease-in;
+}
+
+.footerMedia a:hover {
+  color: #bb1329;
+  transition: 0.2s ease-out;
+}
+
+.footerBanks a {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+  font-size: 25px;
+  margin: 0 1rem;
+  transition: 0.2s ease-in;
+}
+
+.footerBanks a:hover {
+  color: #bb1329;
+  transition: 0.2s ease-out;
+}
+
+/* Footer End */

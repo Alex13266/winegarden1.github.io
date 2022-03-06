@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+
+html {
+  font-family: "Philosopher", sans-serif;
+}
+
+p {
+  font-family: "Philosopher", sans-serif;
+  font-size: 25px;
+  padding-bottom: 1em;
+}
+
+a {
+  font-family: "Philosopher", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Philosopher", sans-serif;
+  line-height: 1;
+  margin: 0em 0em 0.5em 0em;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.6em;
+  font-weight: normal;
+}
+h2 {
+  font-size: 2.2em;
+}
+h3 {
+  font-size: 1.9em;
+}
+h4 {
+  font-size: 1.6em;
+}
+h5 {
+  font-size: 1.4em;
+}
+h6 {
+  font-size: 1.2em;
+}
